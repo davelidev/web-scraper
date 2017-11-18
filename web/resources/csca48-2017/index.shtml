@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA48: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA48: Course Webpage</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="https://piazza.com/mail.utoronto.ca/summer2017/csca48">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca48s17">Markus Submission Site</a>
+	<a href="courseinfo.shtml">Course Info</a>
+    <a href="software.shtml">Course Software</a>
+
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    <a href="practicals.shtml">Practicals / Anti-Lectures</a>
+    </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+      
+      <h2>Overview</h2>
+      
+      <p>
+	      Welcome to CSCA48! This is an Introduction to Computer Science II at UTSC. 
+	      This course builds on the skills covered in 
+	      <a href="/~bharrington/csca08">CSCA08 (Introduction to Computer Science I)</a> 
+	      to help you learn fundamental topics in Computer Science.
+	  </p> 
+	
+	  <p>
+		 The primary keys to success in this course are:<br>
+		 <ul>
+		 <li>Practice</li>
+		 <li>Keep up with lecture material</li>
+		 <li>Practice (seriously, these concepts don't learn themselves)</li>
+		 <li>Start assignments early</li>
+		 <li>Practice!</li>
+		 </ul>
+		 
+	  </p>
+
+      <p>
+        Here is the <a href="courseinfo.shtml">course information sheet</a>, 
+        which contains the course policies. 
+      </p>
+
+ <h2>Contact Information</h2>
+      
+      <table border="3" cellpadding="1">
+        
+        <tr>
+          <th style="text-align:right">Instructor:</th>
+          <td>Brian Harrington</td>
+        </tr>
+        
+        <tr>
+          <th style="text-align:right">Email:</th>
+          <td>
+              brian.harrington [at] utsc.utoronto.ca
+          </td>
+        </tr>
+        
+        <tr>
+          <th style="text-align:right">Office:</th>
+          <td>IC342</td>
+        </tr>        
+      </table>
+
+<h2>Announcements</h2>
+<b>Change in Office Hour Times</b> 2017-07-24<br>
+<p>
+My office hours tomorrow (July 25th) will be held from 1-3 instead of the usual 2-4
+</p>
+<b>Make up test for TT2:</b> 2017-07-16<br>
+<p>
+The make-up test for Term Test #2 will be held on Thursday July 20 from 2-4pm in MW120. Please brig your completed
+illness verification forms with you to the test.
+</p>
+<b>Lecture Cancelled Wednesday July 5:</b> 2017-07-02<br>
+<p>
+I will be away presenting at <a href="http://iticse.hosting.acm.org/">ITiCSE</a> this week and thus will not be able to deliver a lecture
+on Wednesday.
+</p>
+<b>Make up test for TT1:</b> 2017-06-25<br>
+<p>
+The make-up test for TT1 will be held on Thursday June 29th from 2-4pm in IC326. Please bring your
+completed illness verification form with you to the test.
+</p>
+
+<b>Office Hours for Tuesday May 23:</b> 2017-05-21<br>
+<p>
+I have to attend a departmental committee meeting on Tuesday that will run for most of the afternoon. So I will not
+be available during my normal office hours (2-4). I will be around from 12-1. Or by appointment. I apologize for any inconvenience.
+</p>
+        
+    </div>
+
+    <div class="spacer" />
+
+
+   
+  </body>
+</html>
+

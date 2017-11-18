@@ -1,0 +1,4 @@
+find_max|0, 0|"Making sure it works with minimum values"|0
+find_max|10, 20|"Second value larger than first"|20
+find_max|20, 10|"First value larger than second"|20
+find_max|10, 10|"Same values"|10

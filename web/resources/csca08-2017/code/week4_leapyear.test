@@ -1,0 +1,4 @@
+is_leap_year|3|"Year that meets none of the requirements"|False
+is_leap_year|1996|"Year that is divisible by 4"|True
+is_leap_year|1600|"Year that is divisible by 4, but also by 100"|False
+is_leap_year|2000|"Year that is divisible by 4, 100 and 400"|True

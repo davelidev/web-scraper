@@ -1,0 +1,116 @@
+h1 {
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+}
+
+h2 {
+/*  background-image: url("http://www.cdf.toronto.edu/~csc108h/fall/images/hbg70.jpg"); */
+  border-bottom: solid 1px #0101DF;
+  border-top: solid 1px #0101DF;
+  color: #0101DF;
+}
+
+h3, h4, h5, h6 {
+}
+
+html, body, table {
+  background: #fff;
+  color: #000;
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+}
+
+div.content {
+  float: left;
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+}
+
+
+img {/* border style for all images */
+  border: 0;
+}
+
+img.b4 {/* scalable em size class 468px/60px banners */
+  width: 16.83em; /* replaces 468px width */
+  height: 9.06em; /* replaces 60px height */
+}
+
+a:link {
+  color: #037;
+}
+
+a:visited {
+  color: #037;
+}
+
+div.title {
+  padding-right: 1em;
+  text-align: right;
+  font-size: 75%;
+  border: solid 3px #0101DF; 
+  /*background-image: url("http://www.cdf.toronto.edu/~csc108h/fall/images/hbg70.jpg");*/
+  margin-bottom: 2.5ex; 
+  background-color: #0101DF;
+  color: white;
+}
+
+.clear {
+  clear: both;
+  font-size: 1px;
+}
+
+.footer {
+  clear: none;
+  margin-left: 20%;
+  margin-top: 1px;
+  text-align: right;
+  border-top: solid 3px white;
+}
+
+.footer .left {
+  margin-top: 1px;
+  float: left;
+  text-align: left;
+  width: 60%;
+}
+
+.footer .right {
+  margin-top: 1px;
+  float: right;
+  text-align: right;
+  width: 40%;
+}
+
+.spacer {
+  clear: both;
+}
+
+p {
+  padding: 0;
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+}
+
+dd {
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+}
+
+dt {
+  font-family: Verdana, Geneva, Lucida, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+div.navigation {
+  display: none;
+}
+
+@media print {
+	div.navigation {
+		display: none;
+	}
+    
+	div.content {
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+

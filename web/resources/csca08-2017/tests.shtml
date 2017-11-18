@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Tests/Exams</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>Midterm & Exam</h1>
+    </div>
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+    <p>
+    	<h2>Term Test #1</h2><br>
+    </p>
+    <p>
+		The first term test will be held on Saturday September 30, 2017 from 9:00-11:00am
+	</p>
+	<p>The room allocation will be as follows:<br>
+	<img src="files/tt1-rooms.jpg">
+	</p>
+	<p>
+	The marking scheme for Term Test #1 can be found <a href="files/tt1-markingscheme.txt">Here</a>
+	</p>
+		 
+    
+    </p>
+    <p> 
+    	<h2>Term Test #2</h2><br>
+    <p>
+    	The second term test will be held on Monday November 6, 2017 from 5:00-7:00pm
+    </p>
+	<p>The room allocation will be as follows:<br>
+	<img src="files/tt2-rooms.jpg">
+	</p>
+    <p>
+    <h2>Final Exam</h2><br>
+    Details TBA
+    </p>
+    	<h2>Previous Tests</h2>
+	    Some previous term tests can be found below. You should consider the fact that prior to 2015, there was only 1 term test for
+	    the course worth 20% in total, and it normally would have been held in late October/early November.
+    <ul>
+    	<li><a href="files/CSCA08-2012F-Midterm.pdf">Fall 2012 - Midterm</a></li>
+    	<li><a href="files/CSCA08-2013F-Midterm.pdf">Fall 2013 - Midterm</a></li>
+    	<li><a href="files/CSCA08-2014F-Midterm.pdf">Fall 2014 - Midterm</a></li>
+    	<li><a href="files/CSCA08-2015F-TT1.pdf">Fall 2015 - Term Test #1</a></li>
+    	<li><a href="files/CSCA08-2015F-TT2.pdf">Fall 2015 - Term Test #2</a></li>
+    </ul>
+    
+    <ul>
+    	<li><a href="files/CSCA08-2012F-Final.pdf">Fall 2012 - Final</a></li>
+    	<li><a href="files/CSCA08-2013F-Final.pdf">Fall 2013 - Final</a></li>
+    	<li><a href="files/CSCA08-2014F-Final.pdf">Fall 2014 - Final</a></li>
+    	<li><a href="files/CSCA08-2015F-Final.pdf">Fall 2015 - Final</a></li>
+    </ul>
+    </p>
+    </div>
+  </body>
+</html>
+

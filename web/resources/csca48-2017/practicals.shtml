@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA48: Practicals/Anti-Lectures</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA48: Practicals/Anti-Lectures</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="https://piazza.com/mail.utoronto.ca/summer2017/csca48">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca48s17">Markus Submission Site</a>
+	<a href="courseinfo.shtml">Course Info</a>
+    <a href="software.shtml">Course Software</a>
+
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    <a href="practicals.shtml">Practicals / Anti-Lectures</a>
+    </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+<div class="content">
+
+	<p>
+	Practicals are drop-in sessions that run throughout the week. You can attend for as much or as little time as you
+	think is beneficial to you. TAs will be present during this time to help students with the practical materials, as
+	well as any other course related questions they may have. 
+	</p><p>
+	During practicals, points will be awarded on the Tracademic system by the TAs for attendance (Experience points), completing
+	challenge questions (Challenge points), and helping fellow students (Teaching points).
+	</p><p>
+	Anti-lectures are drop-in sessions that are designed to help students who were unable to attend a lecture or tutorial, or
+	who did attend the lecture/tutorial, but felt that they weren't able to fully grasp the material (we all have off days, some times
+	nothing sinks in). The anti-lectures assume that you have read through the lecture/tutorial notes and have an idea
+	of what was covered. The instructor running the session will not be re-teaching the material from scratch, but rather
+	helping students to fill in any gaps they may have.
+    
+    
+    <h2>Practical Questions</h2>
+		<p>
+		Practical questions are not mandatory, and will not be marked. Challenge questions (marked in the files with a bold
+		<b><u>(Challenge)</u></b> can be shown to any TA during a practical session in order to obtain challenge points.
+		</p>		    
+		
+		<ul>
+			<li><a href="practicals/week3.pdf">Week 3</a></li>
+			<li><a href="practicals/week4.pdf">Week 4</a></li>
+			<li><a href="practicals/week5.pdf">Week 5</a></li>
+			<li><a href="practicals/week6.pdf">Week 6</a></li>
+			<li><a href="practicals/week7.pdf">Week 7</a></li>
+			<li><a href="practicals/week8.pdf">Week 8</a></li>
+			<li><a href="practicals/week9.pdf">Week 9</a></li>
+			<li><a href="practicals/week10.pdf">Week 10</a></li>
+			<li><a href="practicals/week11.pdf">Week 11</a></li>
+		</ul>
+    
+    
+      <h2>Timetable</h2>
+      <p>
+        <table border = 1 cellpadding =5>
+		<tr>
+		<td>          </td><td>Mon    					</td><td>Tues   				</td><td>Wed    				</td><td>Thurs   </td><td colspan=2>Fri   </td>
+		</tr>
+		<tr>
+		<td>9:00-10:00am</td><td>      					 </td><td>      				 </td><td>       				</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>10:00-11:00am</td><td>      				 </td><td>       				</td><td>       				</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>11:00-12:00pm</td><td>      				 </td><td>      				 </td><td>       				</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>12:00-1:00pm</td><td>      					 </td><td>      				 </td><td>       				</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>1:00-2:00pm</td><td>      					 </td><td>						</td><td>       				</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>2:00-3:00pm</td><td>      					 </td><td bgcolor="#8888FF">IC400A</td><td bgcolor="#8888FF">IC400A</td><td>       </td><td colspan=2>       </td>
+		</tr>
+		<tr>
+		<td>3:00-4:00pm</td><td>       					</td><td>       				</td><td>       				</td><td>       </td><td  colspan=2 ></td>
+		</tr>
+		<tr>
+		<td>4:00-5:00pm</td><td>       					</td><td>       				</td><td>       				</td><td>       </td><td  colspan=2 ></td>
+		</tr>
+		<tr>
+		<td>5:00-6:00pm</td><td bgcolor="#88FF88">BV471</td><td>      					 </td><td bgcolor="#88FF88">BV471</td><td>      </td><td  colspan=2 ></td>
+		</tr>
+		<tr>
+		<td>6:00-7:00pm</td><td bgcolor="#88FF88">BV471</td><td>      					 </td><td bgcolor="#88FF88">BV471</td><td>      </td><td  colspan=2 ></td>
+		</tr>
+		<tr>
+		<td>7:00-8:00pm</td><td bgcolor="#88FF88">BV471</td><td>      					 </td><td bgcolor="#FF8888">IC120</td><td>      </td><td  colspan=2 ></td>
+		</tr>
+		<tr>
+		<td>8:00-9:00pm</td><td>					  </td><td>      					 </td><td bgcolor="#FF8888">IC120</td><td>      </td><td  colspan=2 ></td>
+		</tr>
+		</table>
+	
+		<p></p>
+		<p>
+		Legend:
+		<table border =1>
+		<tr><td  bgcolor="#88FF88">Practical</td></tr>
+		<tr><td  bgcolor="#FF8888">Anti lecture</td></tr>
+		<tr><td  bgcolor="#8888FF">Re-Mark Requests</td></tr>
+		
+		</table>
+		<br>
+
+		<i>If no TA is present 10min past the start of the session, please e-mail Brian immediately</i>
+		<br>
+		<p>
+		<p>
+		Please note that this is a live document. Times and rooms may change throughout the term. Please check
+		this page for up to date information.
+
+		</p>
+		
+    </div>
+
+    <div class="spacer" />
+
+
+   
+  </body>
+</html>
+

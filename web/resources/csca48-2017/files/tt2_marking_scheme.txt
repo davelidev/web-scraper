@@ -1,0 +1,38 @@
+Q0:
+- All or nothing
+
+Q1:
+parts a-c all or nothing
+part d, would accept interpretation of 'complete binary tree' as well (4/4)
+part e, 2/3 if forgot the 'root' node
+
+Q2:
+1 mark off for every node/reference missing/added/misplaced
+
+Q3:
+Docstring 	/1
+Comments	/2
+Code		/5
+	5 for all correct
+	3 for mostly correct
+	1 for some attempt
+	
+Q4:
+a)
+2 if correct, 1 if minor mistake
+b)
+4 if correct, 2 if basic idea
+c)
+Full marks if within 1, 0 otherwise
+
+Q5:
+Description /1
+Examples	/1
+Comments	/2
+Base Case	/1
+Red Decomp	/2
+
+Q6:
+Needed to mention:
+- tradeoff between ease of use and abstraction
+- fact that Node class will be abstracted inside Tree (or some other) ADT anyway

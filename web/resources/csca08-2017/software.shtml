@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Software</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+      
+      <h2>Python</h2>
+      
+      <p>
+		In this course, we will be programming in <a href="http://www.python.org">Python</a>.
+		We will be using <a href="http://www.python.org/download/">Version 3.5</a> or higher. Please do
+		not install older versions (in particular, lots of people are still using version 2.7).
+		Python is installed on all computers in the BV wing computer labs. You may also wish
+		to install it on your own computer.  
+	  </p><p>
+	  	There is extensive documentation available <a href="http://docs.python.org/3/">online</a>, but again, make sure
+	  	that you're looking at version 3.5 or above.
+	  </p><p>
+	  	We will also be using the <a href="http://wingware.com/downloads/wingide-101">Wing IDE 101 </a> development
+	  	environment both in lectures and in tutorials. You can download the software for
+	  	yourself <http://wingware.com/downloads/wingide-101">here</a>.
+	  	Wing 101 is freely available for academic use. You <b>DO NOT</b> need the professional or personal version of the software, the academic version is more than sufficient for our needs.
+		</p>
+		<h2>Python Tutor</h2>
+		<p>
+		In lecture, we will also occasionally be using <a href="http://www.pythontutor.com">Python Tutor</a>, a web-based tool for visualizing Python programs. Python Tutor is great for getting a sense of how your code operates, and understanding the memory model, but please <b>DO NOT</b> use it to write code for your exercises or assignments. It is not designed for this, it does not allow any sort of saving, and has been known to crash, losing whatever you were typing in it at the time.
+		</p>
+		<p>
+		In order to get pythontutor to draw the memory model as closely as possible to what we've been doing in lecture, you should use the following settings:
+		<ul>
+			<li>hide exited function frames (default)</li>
+			<li>render all objects on the heap</li>
+			<li>hide environment parent pointers (default)</li>
+			<li>use text labels for references</li>
+			<li>show everything (default)</li>
+		</ul>
+		</p>
+		<h2>PEP-8</h2>
+		<p>
+		You can either download the pep8.py file from the <a href="https://pypi.python.org/pypi/pep8">
+		Official Python.org website</a> (requires use of command line). 
+		Or simply paste your code into the <a href="http://pep8online.com">
+		online style checker</a>. I recommend the latter, unless you are already familiar with
+		the command line, and/or want to be able to check code without an internet connection. 
+		(I know how often you all want to check the style of your code while on vacation).
+		</p>
+		<h2>File Backup</h2>
+		<p>
+		This isn't really part of the course software, but every year at least one poor student has a catastrophic hard drive failure or drops their laptop or some other problem, which always seems to happen the day before a big assignment is due. <a href="http://lifehacker.com/theres-no-excuse-for-not-backing-up-your-computer-do-1547987206">There is no excuse for not backing up your computer</a>. I personally use a combination of <a href="http://www.crashplan.com">Crashplan</a> and <a href="http://www.dropbox.com">Dropbox</a>, but whatever software you use, please save your work regularly, and save it to more than one location. I cannot give extensions or deferrals for work missed due to computer failures. (This advice goes for all of your courses).
+		</p>
+   
+  </body>
+</html>
+

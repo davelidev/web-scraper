@@ -1,0 +1,16 @@
+calc|10,20,"+"|"random input, + operation"|30
+calc|10,20,"*"|"random input, * operation"|200
+calc|10,20,"-"|"random input, - operation"|-10
+calc|10,20,"/"|"random input, / operation"|.5
+calc|10,20,"**"|"random input, ** operation"|100000000000000000000
+calc|10,20,"//"|"random input, // operation"|0
+calc|10,20,"%"|"random input, % operation"|10
+calc|10,20,"&"|"Wrong operator"|Wrong operator
+calc|"A",20,"//"|"Wrong operand, Not a digit"|'Wrong Input type'
+calc|"10",20,"//"|"Wrong operand, Not a right type"|'Wrong Input type' 
+calc|10,"B","//"|"Wrong operand, Not a digit"|'Wrong Input type'
+calc|10,"20","//"|"Wrong operand, Not a right type"|'Wrong Input type'
+calc|10,20,10|"Wrong input type operator"|'Wrong Input type'
+
+
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Schedule</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Schedule</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    <div class="content">
+      <p>
+		Note that this is a living document and may be subject to change without notice. Please check the schedule before attending any session.
+		</p>
+		<p>
+		<table border = 1 cellpadding =5>
+		<tr>
+		<td></td>					<td>Mon</td>				<td colspan="2">Tues</td>					<td colspan="2">Wed</td>					<td>Thurs</td>					<td colspan="2">Fri</td>
+		</tr>
+		<tr>
+		<td>9:00-10:00</td><td bgcolor="#FF8888">AC221</td><td colspan="2">     					</td><td colspan="2">    					</td><td>     					</td><td colspan="2">     					</td>
+		</tr>
+		<tr>
+		<td>10:00-11:00</td><td>					</td><td colspan="2">     					</td><td colspan="2">    					</td><td>     					</td><td colspan="2">						</td>
+		</tr>
+		<tr>
+		<td>11:00-12:00</td><td>					</td><td colspan="2">     					</td><td colspan="2">						</td><td>						</td><td colspan="2"bgcolor="#FF8888">IC230</td>
+		</tr>
+		<tr>
+		<td>12:00-1:00</td><td>     				</td><td bgcolor="#88FF88" colspan="2">BV466</td><td colspan="2">						</td><td>						</td><td colspan="2">     					</td>
+		</tr>
+		<tr>
+		<td>1:00-2:00</td><td>     					</td><td bgcolor="#88FF88" colspan="2">BV466</td><td colspan="2">     					</td><td>     					</td><td colspan="2" bgcolor="#88FF88">BV469</td>
+		</tr>
+		<tr>
+		<td>2:00-3:00</td><td>     					</td><td bgcolor="#88FF88">BV466
+														  <td bgcolor="#8888FF">IC342</td>		<td colspan="2">     					</td><td bgcolor="#8888FF">IC342</td><td bgcolor="#8888FF">IC468</td>
+																																								<td bgcolor="#88FF88" colspan="2">BV469	</td>												  
+		</tr>
+		<tr>
+		<td>3:00-4:00</td><td bgcolor="#88FF88">BV471</td><td colspan="2">						</td><td  colspan="2" bgcolor="#88FF88">BV471</td><td>						</td><td colspan="2" bgcolor="#88FF88">BV469</td>
+																																								
+		</tr>
+		<tr>
+		<td>4:00-5:00</td><td bgcolor="#88FF88">BV471</td><td colspan="2" bgcolor="#8888FF">IC468</td><td  colspan="2" bgcolor="#88FF88">BV471</td><td>						</td><td colspan="2"	></td>
+		</tr>
+		<tr>
+		<td>5:00-6:00</td><td bgcolor="#88FF88">BV471</td><td  colspan="2">						</td><td colspan="2" bgcolor="#FF8888">BV471</td>		
+																																<td>     					</td><td colspan="2" bgcolor="#FF8888">AA204</td>
+		</tr>
+		<tr>
+		<td>6:00-7:00</td><td>						</td><td  colspan="2">						</td><td colspan="2">	</td><td>     					</td><td colspan="2">     					</td>
+		</tr>
+		<tr>
+		<td>7:00-8:00</td><td>						</td><td colspan="2" bgcolor="#FF8888">IC320</td><td colspan="2">						</td><td>     					</td><td colspan="2">     					</td>
+		</tr>
+		</table>
+		</p>
+		<p>
+		Legend:
+		<table border =1>
+		<tr><td bgcolor="#8888FF">Office Hours</td></tr>
+		<tr><td  bgcolor="#88FF88">Practical</td></tr>
+		<tr><td bgcolor="#FF8888">Facilitated Study Group</td></tr>
+		</table>
+		</p>
+		<p>
+		<b>Office Hours:</b> Held in your professor(s) office. A chance for you to speak to your professor face to face.
+		<br>
+		<b>Practicals:</b> Drop in sessions held in the computer labs. Get help with exercises, readings, software, any technical issues you're having.
+		<br>
+		<b>Facilitated Study Groups:</b> A study session led by a senior student in a normal classroom. Work on your core understanding of principles, study skills and test writing practice.
+		
+		
+		
+		</p>		    
+    </div>
+
+    <div class="spacer" />
+
+
+   
+  </body>
+</html>
+

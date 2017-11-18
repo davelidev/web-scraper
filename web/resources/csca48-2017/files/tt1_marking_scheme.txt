@@ -1,0 +1,47 @@
+Q0:
+- All or nothing
+
+Q1:
+Docstring /2
+	0 if mentions anything about internal representation
+Internal Commenting /2
+	1 if present and reasonable, 2 if clear, concise and helpful
+Representation Invariant /2
+	1 if present and reasonable, 2 if complete and concise
+Code /4
+	1 if some attempt made
+	2 if minor problem keeps code from working
+	3 if works but inefficient (e.g., have to loop through queue every time)
+	4 if works and efficient
+- 5 for breaking abstraction
+- 5 for using any non listed data structure
+
+Q2:
+Getting/setting default values /4
+	-2 if didn't remove when setting back to default value
+Getting/setting non-default values /2
+Raising errors /2
+Docstring/Commenting /2
+
+Q3:
+a)
+Returning B /1
+Linked List A -> C -> B /1
+Loop A -> C -> B -> C -> B ... /1
+
+b)
+Returning B /1
+Linked List A -> E -> B -> C -> D /1
+Loop A -> E -> B -> C -> D -> E -> B -> C -> D -> E ... /1
+
+c)
+Type Contract /1
+Description /2
+	1 for explaining everything, 2 for being clear and concise
+Requirements /1
+	(at least 1 item in list)
+
+d)
+Lists are only an abstract data type /2
+Lists can't exist in memory the way we show them in the memory model + explanation of why /2
+

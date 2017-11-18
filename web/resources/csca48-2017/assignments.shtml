@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA48: Exercises/Assignments</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>Exercises & Assignments</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="https://piazza.com/mail.utoronto.ca/summer2017/csca48">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca48s17">Markus Submission Site</a>
+	<a href="courseinfo.shtml">Course Info</a>
+    <a href="software.shtml">Course Software</a>
+
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    <a href="practicals.shtml">Practicals / Anti-Lectures</a>
+    </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+    
+    <div class="content">
+    	<h2>Remark Requests</h2>
+    	<p>
+    	
+    	</p>
+    	
+      <h2>Exercises</h2>
+      <p>
+		<ul>
+			<li><a href="exercises/exercise0.pdf">Exercise 0</a>: Due May 12. 5:00pm</li>
+			<li><a href="exercises/exercise1.pdf">Exercise 1</a>: Due May 19. 5:00pm</li>
+			<li><a href="exercises/exercise2.pdf">Exercise 2</a>: Due May 26. 5:00pm</li>
+			<li><a href="exercises/exercise3.pdf">Exercise 3</a>: Due June 2. 5:00pm</li>
+			<li><a href="exercises/exercise4.pdf">Exercise 4</a>: Due June 9. 5:00pm</li>
+			<li><a href="exercises/exercise5.pdf">Exercise 5</a>: Due June 23. 5:00pm</li>
+			<li><a href="exercises/exercise6.pdf">Exercise 6</a>: Due June 30. 5:00pm</li>
+			<li><a href="exercises/exercise7.pdf">Exercise 7</a>: Due July 7. 5:00pm</li>
+			<li><a href="exercises/exercise8.pdf">Exercise 8</a>: Due July 14. 5:00pm</li>
+			<li><a href="exercises/exercise9.pdf">Exercise 9</a>: Due July 21. 5:00pm</li>
+			<li><a href="exercises/exercise10.pdf">Exercise 10</a>: Due July 28. 5:00pm</li>
+			<ul>
+				<li><a href="exercises/btnode.py">btnode.py</a> - Starter code for Ex10</li>
+			</ul>
+		</ul>
+			
+	</p>
+      
+      <h2>Assignments</h2>
+      <p>
+      	<ul>
+      		<li><a href="assignments/a1-1.pdf">Assignment #1 Part 1</a>: Due June 4. 11:55pm</li>
+      		<li><a href="assignments/a1-2.pdf">Assignment #1 Part 2</a>: Due July 2. 11:55pm</li>
+      		<ul>
+      			<li><a href="assignments/a1.py">a1.py</a> Starter code</a></li>
+      		</ul>
+      		<li><a href="assignments/a2.pdf">Assignment #2</a>: Due July 31. 11:55pm</li>
+      		<ul>
+      			<li><a href="assignments/a2/COPYING">COPYING</a> License</li>
+      			<li><a href="assignments/a2/TOAHModel.py">TOAHModel.py</a></li>
+      			<li><a href="assignments/a2/Tour.py">Tour.py</a></li>
+      			<li><a href="assignments/a2/ConsoleController.py">ConsoleController.py</a></li>
+      			<li><a href="assignments/a2/GUIController.py">GUIController.py</a></li>
+      			<li><a href="assignments/a2/GUIViewables.py">GUIViewables.py</a></li>
+      		</ul>
+      	</ul>
+      </p>
+      
+      <h2>Re-marks</h2>
+      <p>
+      	If you believe that one of your exercises/assignments has been marked incorrectly. Please do the following:
+      	<ul>
+      		<li>Check your report file (found under submissions tab in MarkUs)</li>
+			<li>Try to figure out from the report file where things went wrong</li>
+			<li>If you can't figure out what went wrong, or you believe there was an error, visit a Re-Mark Request session (times listed on the <a href="practicals.shtml">calendar)</li>
+			<li>No marks will be amended more than 1 week after they are released</li>
+			<!--
+			<li>Let either Brian or one of the TAs have a look at your report file, and ask them to help you understand what went wrong</li>
+			<li>If they agree that something is amiss, download and complete a <a href="files/remark_request_form.txt">Re-mark Request Form</a></li>
+			<li>E-mail the form, making sure to follow the instructions carefully</li>
+			<li>Please wait 1 week for the report to be processed</li>
+			<li>All forms must be sent within 1 week of the assignment mark appearing on MarkUs</li>
+			-->
+      	</ul>
+      </p>
+      
+	</div>
+  </body>
+</html>
+

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Lecture Notes and Readings</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+      
+      <h2>Weekly Readings/Slides</h2>
+      
+      <p>
+		<ul>
+			<li>Week 1</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/GeneralIntro/toctree.html">
+				General Introduction</a></li>
+				<li><a href="slides/week1-slides.pdf">Lecture Slides</a></li>
+			</ul>
+			
+			<li>Week 2</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/SimplePythonData/toctree.html">
+				Simple Python Data</a></li>
+				<li>Optional: CSC - <a href="http://cscircles.cemc.uwaterloo.ca/1-variables/">
+				Variables</a></li>
+				<li><a href="slides/week2-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week2_grade.py">week2_grade.py</a> Our grade calculation example</li>
+					<li><a href="code/week2_functions.py">week2_functions.py</a> Some sample functions</li>
+				</ul>
+				<li><a href="slides/week2-inverted.pdf">Inverted Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week2_errors.py">week2_errors.py</a> Exploring different types of errors</li>
+					<li><a href="code/week2_calories.py">week2_calories.py</a> Calorie calculation example</li>
+				</ul>
+				
+			</ul>
+			<li>Week 3</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Functions/toctree.html">
+				Functions</a></li>
+				<li>Optional: CSC - <a href="http://cscircles.cemc.uwaterloo.ca/2-functions/">Functions</a></li>
+				<li><a href="slides/week3-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week3_functions.py">week3_functions.py</a> Practicing the design recipe</li>
+					<li><a href="code/week3_functions.test">week3_functions.test</a> Test file for can_i_drive</li>
+					<li><a href="code/week3_swap.py">week3_swap.py</a> Inverted Lecture - Swapping variables</li>
+					<li><a href="code/week3_buggy_scope.py">week3_buggy_scope.py</a> Inverted Lecture - Buggy Scope</li>
+					<li><a href="code/week3_confusion.py">week3_confusion.py</a> Inverted Lecture - Confusing tracing example</li>
+				</ul>
+			</ul>
+			
+			<li>Week 4</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Strings/toctree.html">
+				String</a></li>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Lists/toctree.html">
+				Lists</a></li>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Selection/toctree.html">
+				Selection</a></li>
+				<li>Optional: CSC - <a href="http://cscircles.cemc.uwaterloo.ca/6-if/">
+				If statements</a></li>
+				<li><a href="slides/week4-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week4_lists_and_strings.py">week4_lists_and_strings.py</a> Playing with our new data type</li>
+					<li><a href="code/week4_selection.py">week4_selection.py</a> Solving a problem using different types of if statements</li>
+					<li><a href="code/week4_selection.test">week4_selection.test</a> Test file for our selection function</li>
+					<li><a href="code/week4_findmax.py">week4_findmax.py</a> Inverted Lecture - Find max example</li>
+					<li><a href="code/week4_findmax.test">week4_findmax.test</a> Inverted Lecture - Find max example</li>
+					<li><a href="code/week4_leapyear.py">week4_leapyear.py</a> Inverted Lecture - Leap year example</li>
+					<li><a href="code/week4_leapyear.test">week4_leapyear.test</a> Inverted Lecture - Leap year example</li>
+					
+				</ul>
+
+			</ul>
+			
+			<li>Week 5</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/PythonTurtle/toctree.html">
+				Turtle Graphics</a></li>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/MoreAboutIteration/toctree.html">
+				More About Iteration</a></li>
+				<li>Optional: CSC - <a href="http://cscircles.cemc.uwaterloo.ca/7c-loops/">
+				Loops</a></li>
+				<li><a href="slides/week5-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week5_loops.py">week5_loops.py</a> Playing with loops</li>
+					<li><a href="code/week5_more_loop_examples.py">week5_more_loop_examples.py</a> More fun stuff to do with loops</li>
+					<li><a href="code/week5_loop_comparison.py">week5_loop_comparison.py</a> Comparing the different types of loops</li>
+					<li><a href="code/week5_list_vs_string.py">week5_list_vs_string.py</a> Inverted lecture - Comparing lists and Strings</li>
+					<li><a href="code/week5_calculator.py">week5_calculator.py</a> Inverted lecture - Calculator Example</li>
+					<li><a href="code/week5_calculator.test">week5_calculator.test</a> Inverted lecture - Calculator Example</li>
+					
+					
+				</ul>
+			</ul>
+			
+			<li>Week 6</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Debugging/toctree.html">
+				Debugging</a></li>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Files/toctree.html">
+				Files</a></li>
+				<li>Optional: <a href="http://wingware.com/doc/intro/tutorial-debugging">
+				Wing IDE Debugging Manual</a></li>
+				<li><a href="slides/week6-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week6_files_reading.py">week6_files_reading.py</a> Reading from files</li>
+					<li><a href="code/week6_files_writing.py">week6_files_writing.py</a> Writing to files</li>
+					<li><a href="code/week6_mad_libs.py">week6_mad_libs.py</a> Mad-Libs game</li>
+					<li><a href="code/week6_memory_model.py">week6_memory_model.py</a> Playing with lists in the memory model</li>
+					<li><a href="code/week6_mutation.py">week6_mutation.py</a> Aliasing vs cloning</li>
+					<li><a href="code/week6_cards.py">week6_cards.py</a> Inverted Lecture - Card games</li>
+					
+					
+				</ul>
+			</ul>
+			
+			<li>Week 7</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Dictionaries/toctree.html">
+				Dictionaries</a></li>
+				<li><a href="slides/week7-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week7_tuples.py">week7_tuples.py</a> Playing with tuples</li>
+					<li><a href="code/week7_sets.py">week7_sets.py</a> Playing with sets</li>
+					<li><a href="code/week7_time_comparison.py">week7_time_comparison.py</a> Comparing time to check membership in lists vs sets</li>
+					<li><a href="code/week7_dicts.py">week7_dicts.py</a> Playing with dicts</li>
+					<li><a href="code/week7_buggy_transcript_0.py">week7_buggy_transcript_1.py</a> Inverted Lecture - Buggy Transcript 0</li>
+					<li><a href="code/week7_buggy_transcript_1.py">week7_buggy_transcript_0.py</a> Inverted Lecture - Buggy Transcript 1</li>
+					<li><a href="code/week7_grades_0.txt">week7_grades_0.txt</a> Inverted Lecture - Data File</li>
+					<li><a href="code/week7_grades_1.txt">week7_grades_1.txt</a> Inverted Lecture - Data File</li>
+				</ul>
+				
+			</ul>
+			
+			<li>Week 8</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/ClassesBasics/toctree.html">
+				Classes and Objects: The Basics</a></li>
+				<li><a href="slides/week8-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week8_classes_intro.py">week8_classes_intro.py</a> Playing around with classes, figuring out how they work</li>
+					<li><a href="code/week8_person.py">week8_person.py</a> A person class with system methods</li>
+					<li><a href="code/week8_import.py">week8_import.py</a> Some code that uses our person class</li>
+					
+					<li><a href="code/week8_lazy_poet_starter.py">week8_lazy_poet_starter.py</a> Inverted Lecture - Starter code for lazy poet</li>
+					<li><a href="code/week8_lazy_poet.py">week8_lazy_poet.py</a> Inverted Lecture - Completed code for lazy poet</li>
+				</ul>
+				
+				
+			
+			</ul>
+			<li>Week 9</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/ClassesDiggingDeeper/toctree.html">
+				Classes and Objects: Digging a Little Deeper</a></li>
+				<li><a href="slides/week9-slides.pdf">Lecture Slides</a></li>
+				<li><a href="slides/week9-inverted.pdf">Inverted Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week9_dog_toy.py">week9_dog_toy.py</a> Dog and Toy Classes - Association</li>
+					<li><a href="code/week9_building.py">week9_building.py</a> Building and Room Classes - Composition</li>
+					<li><a href="code/week9_person_inheritance.py">week9_person_inheritance.py</a> Student and Person Classes - Inheritance</li>
+					
+					<li><a href="code/week9_car_dealer.py">week9_car_dealer.py</a> Inverted Lecture - Car Dealership Classes</li>
+				</ul>
+
+			</ul>
+			<li> Week 10</li>
+			<ul>
+				<li>How to Think Like a Computer Scientist: <a href="https://runestone.academy/runestone/static/thinkcspy/Exceptions/toctree.html">
+				Exceptions</a></li>
+			</ul>
+			<!--
+			<li>Week 10</li>
+			<ul>
+				<li>Problem Solving with Algorithms and Data Structures <a href="http://interactivepython.org/runestone/static/pythonds/BasicDS/toctree.html">
+				Basic Data Structures (3.1 - 3.18)</a></li>
+				<li><a href="slides/week10-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week10_stack_with_exceptions.py">stack_with_exceptions.py</a> Plugging the leak in our Stack ADT by building our own exception class
+					<li><a href="code/week10_exception_examples.py">exception_examples.py</a> Playing around with exceptions
+					<li><a href="code/week10_building.py">building.py</a> Room/Building example with a polymorphic function
+					<li><a href="code/week10_scene.py">scene.py</a> One possible result of our OOD exercise with Scenes and Shapes
+				</ul>
+
+			</ul>
+			<li>Week 11</li>
+			<ul>
+				<li>Programs, Information, and People <a href="http://interactivepython.org/runestone/static/pip2/toc.html#test-cases">
+				Test Cases</a></li>
+				<li>Programs, Information, and People <a href="http://interactivepython.org/runestone/static/pip2/toc.html#debugging">
+				Debugging</a></li>
+				<li>Optional: <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=71730">Why your code sucks</a></li>
+				<li><a href="slides/week11-slides.pdf">Lecture Slides</a></li>
+				<ul>
+					<li><a href="code/week11_functions.py">functions.py</a> Some functions to test</li>
+					<li><a href="code/week11_test_functions.py">test_functions.py</a> UnitTest examples</li>
+				</ul>
+
+			</ul>
+			-->
+			
+
+</ul>
+</p>
+</body>
+</html>
+

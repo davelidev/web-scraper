@@ -1,0 +1,8 @@
+can_i_drive|14,True|"Too young but with license"|False
+can_i_drive|13,False|"Too young and no license"|False
+can_i_drive|18,True|"Should be able to drive"|True
+can_i_drive|18,False|"Of age but with no license"|False
+can_i_drive|16,True|"Exactly 16 with license"|True
+can_i_drive|16,False|"Exactly 16 with no license"|False
+calculate_area|0|"Smallest possible radius value"|0
+calculate_area|10|"Intermediate value"|314.1592653589793

@@ -1,0 +1,106 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>CSCC11: Introduction to Machine Learning and Data Mining</TITLE>
+	<STYLE TYPE="text/css">
+	<!--
+		P { color: #000000; font-family: sans-serif }
+		H2 { color: #000000; font-family: sans-serif }
+		H3 { color: #000000; font-family: sans-serif; text-decoration: underline }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" TEXT="#000000" BGCOLOR="#ffffff" DIR="LTR">
+<H2>System Details: <A HREF="index.html">CSCC11 Introduction to Machine Learning and
+Data Mining </A>
+</H2>
+<P>The language used for the programming assignments in the course is
+Matlab. Along with C and Python, this is perhaps the most common platform for
+modern research on machine learning. We do not expect that you
+already know Matlab, but you are expected to be a competent
+programmer for this course. 
+</P>
+<P>We will setup accounts to ensure that you have access to Matlab. 
+</P>
+<P>Here are some link to useful introductions to Matlab: 
+</P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><A HREF="http://www.math.mtu.edu/~msgocken/intro/intro.html">http://www.math.mtu.edu/~msgocken/intro/intro.html</A>
+		</P>
+</UL>
+<P><BR><BR>
+</P>
+<H3>Running Matlab at UTSC or from home</H3>
+<P>You will require two software packages:</P>
+<UL>
+	<LI><P>Xming – An X11 window system emulator. This allows Windows
+	to receive and</P>
+	<P>display graphical information generated on the Mathlab server. 
+	</P>
+	<LI><P>Putty – A secure (encrypted) terminal program which will
+	allow you to log in</P>
+	<P>remotely to the Mathlab server.</P>
+</UL>
+<BR>
+<P>To start a Matlab session remotely from Windows (at home or at
+Bladen lab)</P>
+<UL>
+	<LI><P>Start Xming – Select the Xming launcher from the Windows
+	<I><B>Start</B></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	menu. This activates X11 emulation. Note that Xming by itself opens
+	no windows. You will only see the Xming logo on the Windows program
+	tray at the bottom-right corner of your screen.</SPAN></SPAN></P>
+	<LI><P><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">Start
+	a remote terminal session – Open putty, on the left-hand side of
+	the putty window, notice the </SPAN></SPAN><I><B>'SSH'</B></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	entry. Click on '+' to expand it, and find the </SPAN></SPAN><I><B>'X11'</B></I><I><SPAN STYLE="font-weight: normal">
+	</SPAN></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">entry.
+	Make sure to check the '</SPAN></SPAN><I><B>Enable X11 forwarding</B></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">'
+	box.  Go back to the </SPAN></SPAN><I><B>'Session'</B></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	entry in the left hand side menu. In the </SPAN></SPAN><I><B>'Host
+	Name'</B></I><SPAN STYLE="font-style: normal"><SPAN STYLE="font-weight: normal">
+	box type:</SPAN></SPAN></P>
+	<P><I><B>mathlab.utsc.utoronto.ca</B></I></P>
+	<P STYLE="font-style: normal; font-weight: normal">Press the '<I><B>Open</B></I>'
+	button. This starts a session on the mathlab server at UTSC. You
+	will be asked for your user name and password which should be the
+	same you use to log on to fissure.</P>
+	<LI><P STYLE="font-style: normal; font-weight: normal">Start Matlab
+	– Once you have your terminal session open, type from the command
+	line:</P>
+	<P><I><B>/usr/local/cms/MATLAB/R2012a/bin/matlab</B></I></P>
+	<P STYLE="font-style: normal; font-weight: normal">This will start
+	Matlab's Graphical User Interface. If you prefer to use the terminal
+	version only, add '<I><B>-nodesktop</B></I>' to the command above.</P>
+</UL>
+<BR>
+<P>To start a Matlab session remotely from Linux:</P>
+<UL>
+	<LI><P>Make sure that X11 forwarding is enabled in the
+	/etc/ssh/ssh_config file</P>
+	<LI><P>Use <I><B>ssh</B></I> to log on to mathlab.utsc.utoronto.ca</P>
+	<LI><P>From the command line, execute: 
+	</P>
+	<P><I><B>/usr/local/cms/MATLAB/R2012a/bin/matlab</B></I></P>
+	<P STYLE="font-style: normal; font-weight: normal">As noted above,
+	you can disable the GUI if needed by adding the '<I><B>-nodesktop</B></I>'
+	option to the command above.</P>
+</UL>
+<BR>
+<P><I><B>Notes:</B></I></P>
+<P STYLE="font-style: normal; font-weight: normal">Please remember
+that running <I><B>X11</B></I> graphical applications over <I><B>ssh</B></I>
+is inherently slow. This will be most noticeable if you are running
+applications from home (without the benefit of the universities high
+speed network). This is a fundamental limitation of <I><B>X11</B></I>
+and at present there is no reliable way to improve performance.
+Reducing the amount of graphical information sent over the network
+will improve things, hence, if you are comfortable running Matlab
+commands from the command window (without access to all the menus and
+options provided by the GUI), running Matlab with the '<I><B>-nodesktop</B></I>'
+option should help when running your code at home.</P>
+<P STYLE="font-style: normal; font-weight: normal"><BR><BR>
+</P>
+</BODY>
+</HTML>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA48: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA48: Lecture Materials & Weekly Readings</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="https://piazza.com/mail.utoronto.ca/summer2017/csca48">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca48s17">Markus Submission Site</a>
+	<a href="courseinfo.shtml">Course Info</a>
+    <a href="software.shtml">Course Software</a>
+
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    <a href="practicals.shtml">Practicals / Anti-Lectures</a>
+    </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+    <p>
+    <ul>
+    	<li>Week 1</li>
+    	<ul>
+    		<li><a href="slides/week1-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week1_review.py">Week 1 Review Code</a></li>
+    		<li>Weekly Reading: No reading assigned this week. Review <a href="http://www.utsc.utoronto.ca/~bharrington/csca08/"> CSCA08</a> Material</li>
+    	</ul>
+    	<li>Week 2</li>
+    	<ul>
+    		<li><a href="slides/week2-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week2_container.py">Building a Container Class</a></li>
+    		<li><a href="code/week2_stacks.py">Playing with Stacks</a></li>
+    		<li>Weekly Reading:</li>
+    			<ul>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/stacks.html">Stacks</a></li>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/queues.html">Queues</a></li>
+    			</ul>
+    	</ul>
+    	
+    	<li>Week 3</li>
+    	<ul>
+	    	<li><a href="slides/week3-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week3_stacks.py">Improved Stack classes with better abstraction and representation invariants</a></li>
+    		<li>Weekly Reading:</li>
+    			<ul>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/inheritance.html">Inheritance</a></li>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/exceptions.html">Exceptions</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 4</li>
+    	<ul>
+    		<li><a href="slides/week4-slides.pdf">Lecture Slides</a></li>
+    		<li>Weekly Reading:</li>
+    			<ul>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/linked_lists.html">Linked Lists</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 5</li>
+    	<ul>
+    		<li><a href="code/week5_array_list.py">List implemented with "arrays"</a></li>
+    		<li><a href="code/week5_linked_list.py">List implemented with linked lists</a></li>
+    		<li>Weekly Reading:</li>
+    			<ul>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/trees.html">Trees</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 6</li>
+    	<ul>
+    		<li><a href="slides/week6-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week6_bt.py">Binary Tree Node and Traversal Code</a></li>
+    		<li><a href="code/week6_containers.py">Containers to try different traversals</a></li>
+
+    		<li>Weekly Reading:</li>
+    		
+    			<ul>
+	    			<li><a href="http://interactivepython.org/courselib/static/pythonds/Trees/BinaryHeapImplementation.html">Heaps</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 7</li>
+    	<ul>
+    		<li><a href="slides/week7-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week7_bst.py">Binary Search Tree Code</a></li>
+    	</ul>
+    	<li>Week 8</li>
+    	<ul>
+    		<li><a href="slides/week8-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week8_heap.py">Heap Code</a></li>
+    		<li>Weekly Reading:</li>
+    		
+    			<ul>
+    				<li><a href="http://openbookproject.net/thinkcs/python/english3e/recursion.html">Recursion</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 9</li>
+    	<ul>
+    		<li><a href="slides/week9-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week9_lists.py">Summing a List</a></li>
+    		<li><a href="code/week9_factorial.py">Factorial</a></li>
+    		<li><a href="code/week9_hanoi.py">Tower of Hanoi</a></li>
+    		<li><a href="code/week9_hanoi_stacks.py">Tower of Hanoi using Stacks</a></li>
+    		<li><a href="code/week9_stacks.py">Printable Stack for Tower of Hanoi</a></li>
+    		<li><a href="code/week9_binary_search.py">Binary Search</a></li>
+    		<li><a href="code/week9_indirect.py">Language Generation (indirect recursion)</a></li>
+    		<li><a href="code/week9_family_tree.py">Family Tree</a></li>
+    		<li><a href="code/week9_sierpinski.py">Sierpinski Triangle</a></li>
+    		<li>Weekly Reading:</li>
+    		
+    			<ul>
+    				<li><a href="https://cscircles.cemc.uwaterloo.ca/16-recursion/">More Recursion</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 10</li>
+    	<ul>
+    		<li><a href="code/week10_palindrome.py">Different ways to do palindrome</a></li>
+    		<li><a href="code/week10_list.py">Our List ADT implemented with Linked Lists, now with recursion</a></li>
+    		<li>Weekly Reading:</li>
+    		
+    			<ul>
+    				<li><a href="http://interactivepython.org/courselib/static/pythonds/index.html#analysis">Analysis</a></li>
+    			</ul>
+    	</ul>
+    	<li>Week 11</li>
+    	<ul>
+    		<li><a href="code/week11_bst.py">Recursive Binary Search Tree</a></li>
+    		<li>Weekly Reading:</li>
+    		
+    			<ul>
+    				<li><a href="http://interactivepython.org/courselib/static/pythonds/SortSearch/toctree.html">Searching and Sorting</a> (You can ignore Hashing, but it's pretty interesting)</li>
+    			</ul>
+    	</ul>
+    	<li>Week 12</li>
+    	<ul>
+    		<li><a href="slides/week12-slides.pdf">Lecture Slides</a></li>
+    		<li><a href="code/week12_heap.py">Adding sorting to our heap class</a></li>
+    		<li><a href="code/week12_sort.py">Sample sorting functions</a></li>
+    		<li><a href="code/week12_profile.py">Profiling our sorting algorithms</a></li>
+    	</ul>
+
+    </ul>
+	</p>
+      
+      
+      
+      
+  </body>
+</html>
+

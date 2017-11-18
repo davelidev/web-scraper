@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Course Webpage</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+      
+<form id="file-form" method="POST" enctype="multipart/form-data" accept-charset="utf-8">
+    <h3>Test Runner</h3>
+    <div>Select your .py file you want to test:</div>
+    <input type="file" id="file-select0" name="pythonFile" accept=".py"/>
+    <div id="badPy" style="color:red;"></div>
+    <div><br/>Select your .test test file:</div>
+    <input type="file" id="file-select1" name="csvFile" accept=".test"/>
+    <div id="badCsv" style="color:red;"></div>
+    <div><br/></br></div>
+    <button type="submit" id="upload-button">Run my tests!</button>
+    <div></div>
+    <div>**********************************************************************</div>
+    <p id="result"></p>
+</form>
+
+
+
+<script>
+
+var form = document.getElementById('file-form');
+var fileSelectPy = document.getElementById('file-select0');
+var fileSelectCsv = document.getElementById('file-select1');
+var uploadButton = document.getElementById('upload-button');
+
+var badPyText = document.getElementById('badPy'); 
+var badCsvText = document.getElementById('badCsv');
+
+var resultPar = document.getElementById('result'); 
+
+
+// Clear data on refresh
+uploadButton.disabled = false;
+fileSelectPy.value = "";
+fileSelectCsv.value = "";
+badPyText.innerHTML = "";
+badCsvText.innerHTML = "";
+resultPar.innerHTML = "";
+
+uploadSuccess = true;
+
+function uploadWait() {
+        if (!uploadSuccess){
+            enableAll();
+            resultPar.innerHTML = "Upload failed! Service may be down.";
+        }
+    }
+
+function disableAll() {
+    uploadButton.disabled = true;
+    fileSelectPy.disabled = true;
+    fileSelectCsv.disabled = true;
+    badPyText.innerHTML = "";
+    badCsvText.innerHTML = "";
+}
+
+function enableAll() {
+    uploadButton.disabled = false;
+    fileSelectPy.disabled = false;
+    fileSelectCsv.disabled = false;
+    uploadButton.innerHTML = 'Run my tests!';
+}
+
+enableAll();
+
+
+// When submit is clicked.
+form.onsubmit = function(event) {
+    event.preventDefault();
+
+    resultPar.innerHTML = "";
+    // Update button text.
+    uploadButton.innerHTML = 'Uploading...';
+    disableAll();
+    // Get the selected files from the input.
+    var filePy = fileSelectPy.files[0];
+    var fileCsv = fileSelectCsv.files[0];
+  
+    // Check that correct file was provided.
+    var isPy =  filePy != undefined  && filePy.name.endsWith(".py");
+    var isCsv = fileCsv != undefined && fileCsv.name.endsWith(".test");
+
+    if (isPy && isCsv) {
+        // Create a new FormData object.
+        var formData = new FormData();
+
+        formData.append('py',filePy, filePy.name);
+        formData.append('csv',fileCsv, fileCsv.name);
+
+        
+        // Set up the request.
+        var xhr = new XMLHttpRequest();
+      
+        // Open the connection.
+        // http://localhost:8089/ 
+        // http://cs-dev.utsc.utoronto.ca:8089/
+        xhr.open('POST', 'http://cs-dev.utsc.utoronto.ca:8089/', true);
+
+        // When I get a responce
+        xhr.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                uploadSuccess = true;
+                enableAll();
+                resultPar.innerHTML = this.responseText;
+                
+            }
+        };
+      
+        // Send the Data.
+        xhr.send(formData);
+        uploadSuccess = false;
+        setTimeout(uploadWait, 5000)
+    }
+    else {
+        
+        if (!isCsv) {
+            badCsvText.innerHTML = "Please select a .test file."
+        }
+        if (!isPy) {
+            badPyText.innerHTML = "Please select a .py file."
+        }
+        
+    enableAll();
+    }
+
+};
+
+</script>
+
+
+    <div class="spacer" />
+
+
+   
+  </body>
+</html>
+

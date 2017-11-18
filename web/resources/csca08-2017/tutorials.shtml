@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Tutorial Materials</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+      
+      <h2>Tutorial Materials</h2>
+      
+      <p>
+      	<ul>
+		<li>Week 3 - Tracing Examples (
+		<a href="tutorials/week3_part1.py">Part1</a>,
+		<a href="tutorials/week3_part2.py">Part2</a>,
+		<a href="tutorials/week3_part3.py">Part3</a>)</li>
+      	<li>Week 4 - Design Recipe (
+		<a href="tutorials/week4.py">.py file</a>,
+		<a href="tutorials/week4.test">.test file</a>)</li>	
+		<li>Week 5 - Style and Design (<a href="tutorials/week5.py">selection example to clean up</a>)
+		<li>Week 6 - Importing (<a href="tutorials/week6_import_a.py">Part1</a>
+								<a href="tutorials/week6_import_b.py">Part2</a>)
+		<li>Week 7 - Mutability Tracing (<a href="tutorials/week7_mutability_tracing.py">Example</a>)</li>
+		<li>Week 8 - Inverting a Dictionary (<a href="tutorials/week8_invert_dict.py">Code</a>)</li>
+		<li>Week 9 - Practicing OOP (<a href="tutorials/week9_calendar.py">Code</a>)</li>
+      	</ul>
+      	
+		
+	  </p>
+
+   
+  </body>
+</html>
+

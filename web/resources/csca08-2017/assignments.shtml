@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Exercises/Assignments</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>Exercises & Assignments</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+    
+    <div class="content">
+    	<p>
+    
+      <h3>Exercises</h3>
+      <p>
+      <ul>
+      	<li><a href="exercises/exercise0.pdf">Exercise 0</a> - Due Sept 15. 5:00pm</li>
+      	<li><a href="exercises/exercise1.pdf">Exercise 1</a> - Due Sept 24. 5:00pm</li>
+      	<li><a href="exercises/exercise2.pdf">Exercise 2</a> - Due Oct 1. 5:00pm</li>
+      	<ul>
+      		<li><a href="exercises/ex2.py">ex2.py</a> - Starter Code</li>
+      		<li><a href="exercises/ex2.test">ex2.test</a> - Starter Testing File</li>
+      		<li><a href="exercises/ex2_gui.py">ex2_gui.py</a> - GUI</li>      		
+      	</ul>
+      	<li><a href="exercises/exercise3.pdf">Exercise 3</a> - Due Oct 8. 5:00pm</li>
+      	<li><a href="exercises/exercise4.pdf">Exercise 4</a> - Due Oct 22. 5:00pm</li>
+      	<li><a href="exercises/exercise5.pdf">Exercise 5</a> - Due Oct 29. 5:00pm</li>
+      	<ul>
+      		<li><a href="exercises/ex5_grade_file.txt">ex5_grade_file.txt</a> - Grade file for bonus question</li>
+      	</ul>
+      	<li><a href="exercises/exercise6.pdf">Exercise 6</a> - Due Nov 5. 5:00pm</li>
+      	<li><a href="exercises/exercise7.pdf">Exercise 7</a> - Due Nov 12. 5:00pm</li>
+      	<ul>
+      		<li><a href="exercises/ex7_data.txt">ex7_data.txt</a> - Data file</li>
+      	</ul>
+      	<li><a href="exercises/exercise8.pdf">Exercise 8</a> - Due Nov 19. 5:00pm</li>
+      </ul>
+      
+      </p>
+      <h3>Assignments</h3>
+    	<ul>
+    		<li><a href="assignments/assignment0.pdf">Assignment 0</a> - Due October 22, 11:55pm</li>
+    		<ul>
+    			<li><a href="assignments/a0.py">a0.py</a> - Declaration and Starter code</li>
+    			<li><a href="assignments/a0_typechecker.py">a0_typechecker.py</a> - Type checker</li>
+    		</ul>
+    		<li><a href="assignments/assignment1.pdf">Assignment 1</a> - Due November 12, 11:55pm</li>
+    		<ul>
+    			<li><a href="assignments/a1.py">a1.py</a> - Declaration and Starter code</li>
+    			<li><a href="assignments/a1_typechecker.py">a1_typechecker.py</a> - Type checker</li>
+    			<li><a href="assignments/a1_typechecker_file.txt">a1_typechecker_file.txt</a> - An input file for use in the file checker</li>
+    		</ul>
+    		<li><a href="assignments/assignment2.pdf">Assignment 2</a> - Due December 3, 11:55pm</li>
+    		<ul>
+    			<li><a href="assignments/a2.py">a2.py</a> - Declaration and Starter code</li>
+    		</ul>
+    	</ul>
+      </p>
+      <!--
+      <h3>Re-Marks</h3>
+      If you believe that one of your exercises/assignments has been marked incorrectly. Please do the following:
+      <ul>
+      	<li>Check your report file (found under submissions tab in MarkUs)</li>
+      	<li>Try to figure out from the report file where things went wrong</li>
+      	<li>Let either Brian or one of the TAs have a look at your report file, and ask them to help you understand what went wrong</li>
+      	<li>If they agree that something is amiss, download and complete a <a href="files/remark_request_form.txt">Re-mark Request Form</a></li>
+      	<li>e-mail the completed form to k.ma@mail.utoronto.ca following <b>all instructions</b> at the top of the form. Failure to complete the instructions properly may result in
+      	your request not being processed</li>
+      	<li>Please wait 1 week for the report to be proccessed</li>
+      </ul>
+	-->      
+	</div>
+  </body>
+</html>
+

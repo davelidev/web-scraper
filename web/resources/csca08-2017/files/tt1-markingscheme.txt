@@ -1,0 +1,42 @@
+TT1 marking scheme fall 2017
+
+Q0.
+To get this mark, students must have entered their information on the front page, checked their tutorial
+and drawn a smiley face (reading instructions is an important skill). This mark can also be taken away
+for messy answers anywhere, or students who continue their work in non obvious places and don't clearly
+tell you where to look for it.
+
+Q1.
+1 mark per line (max of 25, don't count the --X-- lines)
+
+
+Q2.
+part a)
+1 - header (must have meaningful function name and parameters)
+1 - type contract (don’t worry about tiny details like integer vs int, but otherwise all or nothing)
+1 - requirements (age >= 0, amount >= 0 are required)
+1 - examples (again, don’t be too picky, if it’s basically right give them the marks)
+2 - description (1 if reasonable, 2 if clear and thorough)
+3 - internal comments (1 if present, 2 if breaking down step by step, 3 if thorough and clear)
+3 - code (1 for reasonable attempt, 2 for working, 3 for clear and simple, 0 if using ifs, -1 for bad variable names)
+
+
+part b)
+1 - having inputs, outputs, function name
+1 - meaningful test name
+(Don't worry about format... within reason)
+
+part c)
+1 - identifying and explaining boundary cases + intermediate values
+1 - a sensible calculation involving multiplying the number of boundaries + intermediate values for each input 
+1 - clear and concise explanation
+(Don't worry about actual values in calculation, again within reason)
+
+Q3.
+1 - explaining granularity (something about breaking down instructions into more but simpler instructions)
+1 - explaining why it's relevant to CS (something about turning low granularity algorithms into high granularity code)
+-1 - unclear or rambling answers
+
+
+
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+
+    <title>CSCA08: Course Webpage</title>
+  </head>
+  
+  <body>
+    <div class="title">
+      <h1>CSCA08: Course Information</h1>
+    </div>
+    
+    <div class="navigation">
+  <p>
+  <span class="links">
+    <a href="index.shtml">Home</a>
+    <a href="courseinfo.shtml">Course Info</a>
+    <a href="https://piazza.com/mail.utoronto.ca/fall2017/csca08">Piazza Forum</a>
+    <a href="https://markus.utsc.utoronto.ca/csca08f17">Markus Submission Site</a>
+    <a href="run_tests.shtml">Run your .test file</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Lectures:</b>
+    <a href="lectures.shtml">Lecture Notes and Weekly Readings</a>
+    </span>
+  </p><br />
+   <p>
+  <span class="links">
+    <a href="tutorials.shtml">Tutorial Materials</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="practicals.shtml">Practical Material</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="schedule.shtml">Practical/Office Hours/FSG<br> Schedule</a>
+    </span>
+  </p><br />
+	<p>
+    <span class="links">
+    <a href="files/StudyInstructions.pdf">Bonus Grade Study Info</a>
+    </span>
+  </p><br />
+
+
+  <span class="links">
+  
+    <a href="software.shtml">Course Software</a>
+  </span>
+  </p><br />
+
+  <p>
+  <span class="links">
+    <b>Course Work:</b>
+    <a href="assignments.shtml">Assignments/Exercises</a>
+   <a href="tests.shtml">Tests</a>
+  </span>
+  </p><br/>
+
+  <p>
+
+</div>
+<!--$Id:$-->
+
+
+    
+    <div class="content">
+    <p>
+    <ul>
+    <h2>Textbook</h2>
+    <p>
+    We will have no set textbook for this course. Instead, you will be given weekly readings from online sources
+    </p>
+    <h2>Marking Scheme</h2>
+    <p>
+    <table border = 1>
+    	<tr>
+    	<td>Work</td><td>Weight</td><td></td>
+    	</tr>
+    	<tr>
+    	<td>Term Work</td><td>15%</td><td>Smaller pieces of work throughout the term including exercises and quizzes</td>
+    	</tr>
+    	<tr>
+    	<td>Assignments</td><td>20%</td><td>3 Assignments</td>
+    	</tr>
+    	<tr>
+    	<td>Term Tests</td><td>25%</td><td>2 tests, 2 hour closed book, details TBA</td>
+    	</tr>
+    	<tr>
+    	<td>Final Exam</td><td>40%</td><td>You must get 40% or above on the exam to pass the course</td>
+    	</tr>
+    	
+    </table>
+    
+    </p>
+    <h2>Website</h2>
+    <p>
+    The course website can be found at: <a href="http://www.utsc.utoronto.ca/~bharrington/csca08">http://www.utsc.utoronto.ca/~bharrington/csca08</a> The website is required reading. It contains important information: assignment handouts, the policy on missed work, a discussion board, and more. You are responsible for all announcements made in lecture and on the course website.
+    </p>
+    <h2>E-mail and Forum</h2>
+    <p>
+    Your first point of contact for any course related questions should be the forum. We will be checking the forums regularly, and you will likely receive answers on the forum much quicker than via e-mail. If your question pertains to personal matters, or contains information that cannot be posted on the forums (e.g., specific questions about your assignment code), then e-mail one of the instructors or your TA. Please use your university address to ensure that nothing winds up in the spam filter.
+    </p><p>
+The discussion forum is a vital part of the course, and allows you to discuss course material with not only the instructors and your TAs, but also with your fellow students. Please exercise common sense and courtesy with all course related communication.
+    </p>
+    <h2>Tutorials</h2>
+    <p>
+    Tutorials will be held every week starting in Week 2. During these sessions, TAs will cover new material and review material from lecture. There will be no marks for attendance, but quizzes will be given in some tutorials.
+    </p>
+    <h2>Practicals</h2>
+    <p>
+    Practical sessions will be held every week starting in week 2. These sessions are not compulsory, and are run on a 'drop-in' basis. You can come for as many or as few hours as you feel you need every week. During these sessions, TAs will be available to help you with practical material, exercises, test preparation, and any other help you may require.
+    </p>
+    <h2>Exercises</h2>
+    <p>
+    Exercises are small pieces of work that are due almost every week. They may require you to write code or provide short answers to questions. Your TAs will give you guidance with your exercises if you need it. You may also help one another on the exercises.
+    </p>
+    <h2>Assignments</h2>
+    <p>
+    Assignments are larger programs that you will be required to design and implement. Assignment handouts will be available on the course website. Assignments make up a large portion of your mark, and will be graded much more rigorously than Exercises. The TAs will also give less guidance on the assignments than they will on the exercises. Assignments must be completed entirely on your own.
+    </p>
+    <h2>Missed/Late Work</h2>
+    <p>
+    No late submissions will be accepted for any course work, and no make-up assignments will be provided for missed/poorly completed work. It is your responsibility to ensure that all work is completed on time and to the best of your ability. 
+    </p>
+    <p>
+    If an emergency arises that prevents you from being able to complete any piece of work, or attend an exam, contact one of the instructors immediately. You will need to have
+    a properly completed <a href="http://www.illnessverification.utoronto.ca">Illness Verification Form</a> signed by a registered doctor in order to be given special consideration.
+    </p>
+    <h2>Academic Offenses</h2>
+    <p>
+    All of the work you submit must be done by you and your work must not be submitted by someone else. Plagiarism is academic fraud and is taken very seriously. The department uses software that compares programs for evidence of similar code. Please read the Rules and Regulations from the U of T Calendar (especially the <a href="http://www.governingcouncil.utoronto.ca/policies/behaveac.htm">Code of Behaviour on Academic Matters</a>).
+    </p><p>
+    Please also see the <a href="http://www.artsci.utoronto.ca/osai/students">information for students</a> from the Office of Student Academic Integrity.
+    </p>
+     <p>             
+Please don’t cheat. We want you to succeed and are here to help. Here are a couple of general guidelines to help you avoid plagiarism:
+<ul>
+	<li>Never look at another student's assignment code, whether it is on paper or on the computer screen. Never show another student your assignment solution. This applies to all drafts of a solution and to incomplete solutions.
+	</li>
+		<li>
+	The easiest way to avoid plagiarism is to only discuss the piece of work with the TAs, and the course instructor.
+
+	</li>
+</ul>
+
+    </p>
+      
+      
+      
+      
+  </body>
+</html>
+
