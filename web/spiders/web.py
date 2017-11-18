@@ -3,7 +3,7 @@ import os
 import datetime
 
 class WebSpider(scrapy.Spider):
-    name = 'web_scraper'
+    name = 'web'
 
     def __init__(self, base_url='', default_path="resources", folder_name='', year=''):
         assert base_url != '' and folder_name != ''
